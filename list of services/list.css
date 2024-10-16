@@ -1,0 +1,105 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+
+header{
+    font-size: 30px;
+    background-color: #5d3333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 8px 0px red, 0px -8px blue;
+    animation: header 2s linear infinite;
+}
+
+
+@keyframes header {
+    
+    0%{text-shadow: 8px 0px red, 0px -8px blue;}
+    16.6%{text-shadow: 4px 4px red, -4px -4px blue;}
+    32.2%{text-shadow: -4px -4px red, 4px 4px blue;}
+    59.8%{text-shadow: 0px -8px red, 8px 0px blue;}
+    66.5%{text-shadow: -4px -4px red, 4px 4px blue;}
+    83%{text-shadow: 4px 4px red, -4px -4px blue;}
+    100%{text-shadow: 8px 0px red, 0px -8px blue;}
+}
+
+nav ul{
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+nav ul li{
+
+    display: inline;
+    margin: 0 10px;
+
+}
+
+
+nav ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+h1, h2{
+
+    margin-bottom: 10px;
+
+}
+
+
+main{
+
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+
+section{
+
+    background-color: #fff;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+
+footer{
+
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
