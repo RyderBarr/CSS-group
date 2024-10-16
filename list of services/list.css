@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 
@@ -11,32 +11,126 @@ body{
 
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f1f1f1;
     color: #333;
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,100;0,500;0,600;0,700;0,200;0,900;1,100;1,200;1,300;1,100;1,500;1,600;1,700;1,200;1,900&display=swap');
 
 
 header{
     font-size: 30px;
     background-color: #5d3333;
-    color: #fff;
+    color: black;
     padding: 10px 0;
     text-align: center;
-    text-shadow: 8px 0px red, 0px -8px blue;
-    animation: header 2s linear infinite;
+    text-shadow: 2px 0px red, 0px -2px blue 0px 2px yellow;
+    animation: header 2s linear infinite; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
-
 
 @keyframes header {
     
-    0%{text-shadow: 8px 0px red, 0px -8px blue;}
-    16.6%{text-shadow: 4px 4px red, -4px -4px blue;}
-    32.2%{text-shadow: -4px -4px red, 4px 4px blue;}
-    59.8%{text-shadow: 0px -8px red, 8px 0px blue;}
-    66.5%{text-shadow: -4px -4px red, 4px 4px blue;}
-    83%{text-shadow: 4px 4px red, -4px -4px blue;}
-    100%{text-shadow: 8px 0px red, 0px -8px blue;}
+    0%{text-shadow: 2px 0px red, 0px -2px blue 0px 2px yellow;}
+    16.6%{text-shadow: 1px 1px red, -1px -1px blue, -1px 1px yellow;}
+    32.2%{text-shadow: -1px -1px red, 1px 1px blue, 1px -1px yellow;}
+    59.2%{text-shadow: 0px -2px red, 2px 0px blue 0px -2px yellow;}
+    66.5%{text-shadow: -1px -1px red, 1px 1px blue, -1px 1px yellow;}
+    23%{text-shadow: 1px 1px red, -1px -1px blue, 1px -1px yellow;}
+    100%{text-shadow: 2px 0px red, 0px -2px blue 0px 2px yellow;}
+}
+
+header > h1{
+    margin: 2.5% 28%;
+    border: 5px black;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    animation: h1 4s linear infinite; 
+}
+
+@keyframes h1{
+
+    0%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    10%{
+        border-top-style: double;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    20%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    30%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: solid;
+    }
+
+    40%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: solid;
+    }
+
+    50%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    }
+
+    60%{
+        border-top-style: solid;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    }
+
+    70%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: double;
+    }
+
+    80%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: double;
+    }
+
+    90%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    100%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
 }
 
 nav ul{
@@ -85,7 +179,7 @@ section{
     background-color: #fff;
     margin: 20px 0px;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 2px;
 
 }
 
@@ -94,7 +188,7 @@ footer{
 
     text-align: center;
     padding: 10px;
-    background-color: #444;
+    background-color: #111;
     color: #fff;
     position: relative;
     bottom: 0;
