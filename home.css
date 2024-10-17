@@ -66,13 +66,14 @@ body{
     width: 350px;
 } */
 input{
-    width: 400px;
+    width: 475px;
     background-color: transparent;
     border: 0px;
     height: 30px;
     color: white;
     font-family: "Outfit", sans-serif;
     font-size: 15px;
+    border-radius: 50px;
     /* height: 20px;
     border-radius: 50px; */
 }
@@ -92,4 +93,7 @@ input:active{
 }
 .sear{cursor: pointer;
 
+}
+a:visited{
+    color: white;
 }
