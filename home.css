@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap') ;
+header{
+    z-index: 1;
+    margin-right: 15px;
+    border-bottom: 1px solid;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;   
+    height: 35px;
+    background-color: rgb(98, 71, 40);
+    
+    ;}
+    header > div {
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    top: 7px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+    }
+    a:link{
+        color:aliceblue;
+    }
+    .titl{
+        text-align: center;
+        position: relative;
+        bottom: 5px;
+        right: 33px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 60px;
+    }
+    .foot{
+        color: aliceblue;
+        position: fixed;
+        bottom: 0px;
+        background-color: rgb(98, 71, 40);
+        width: 100%;
+        float: left;
+        font-family: "Poppins", sans-serif;
+        font-style: italic;
+        height: 75px;
+       }
+body{
+    background-color: linear-gradient(to right blue, black);
+}
+.search{
+    display: grid;
+    grid-row: 100px;
+    grid-template-columns: 15px auto ;
+    /* border: solid red; */
+    width: 500px;
+    position: relative;
+    left: 460px;
+    top: 150px;
+    border: solid black 2px;
+    border-radius: 50px;
+    column-gap: 10px;
+}
+/* .seary{
+    width: 350px;
+} */
+input{
+    width: 475px;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+    /* height: 20px;
+    border-radius: 50px; */
+}
+/* img{
+    height: 15px;
+} */
+body{
+    background-image: url(cookie.webp);
+}
+input:active{
+    border: 0px;
+}
+.log{
+    top: -6px;
+    ; font-size: xx-large; 
+    color: white;
+}
+.sear{cursor: pointer;
+
+}
+a:visited{
+    color: white;
+}
