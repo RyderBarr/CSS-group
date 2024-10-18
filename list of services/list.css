@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap') ;
+
+nav{
+    font-size: smaller;
+    z-index: 1;
+    margin-right: 15px;
+    border-bottom: 1px solid;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;   
+    height: 35px;
+    background-color: rgb(98, 71, 40);
+    border-color: black;
+}
+
+nav > div {
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    top: 7px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+
+a:link{
+    color:aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url(cookie.webp);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #d1bca2;
+    color: white;
+
+}
+
+header{
+    font-size: 30px;
+    color: greyblack;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 3px 0px red, 0px -3px blue 0px 3px yellow;
+    animation: header 2s linear infinite; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+@keyframes header {
+    
+    0%{text-shadow: 3px 0px red, 0px -3px blue 0px 3px yellow;}
+    16.6%{text-shadow: 1px 1px red, -1px -1px blue, -1px 1px yellow;}
+    32.2%{text-shadow: -1px -1px red, 1px 1px blue, 1px -1px yellow;}
+    59.2%{text-shadow: 0px -3px red, 3px 0px blue 0px -3px yellow;}
+    66.5%{text-shadow: -1px -1px red, 1px 1px blue, -1px 1px yellow;}
+    23%{text-shadow: 1px 1px red, -1px -1px blue, 1px -1px yellow;}
+    100%{text-shadow: 3px 0px red, 0px -3px blue 0px 3px yellow;}
+}
+
+header > h1{
+    margin: 2.5% 28%;
+    border: 5px double black;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    animation: h1 4s linear infinite; 
+}
+
+@keyframes h1{
+
+    0%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    10%{
+        border-top-style: double;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    20%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    30%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: solid;
+    }
+
+    40%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: solid;
+    }
+
+    50%{
+        border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    }
+
+    60%{
+        border-top-style: solid;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    }
+
+    70%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: double;
+    }
+
+    80%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: double;
+    }
+
+    90%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+    100%{
+        border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
+ }
+
+nav ul{
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+nav ul li{
+
+    display: inline;
+    margin: 0 10px;
+
+}
+
+
+nav ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+h1, h2{
+
+    margin-bottom: 10px;
+
+}
+
+
+main{
+
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    color: black;
+
+}
+
+
+section{
+
+    background-color: #fff;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+footer{
+
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
