@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap') ;
 
-nav{
-    font-size: smaller;
+header{
     z-index: 1;
     margin-right: 15px;
     border-bottom: 1px solid;
@@ -12,10 +11,9 @@ nav{
     width: 100%;   
     height: 35px;
     background-color: rgb(98, 71, 40);
-    border-color: black;
 }
 
-nav > div {
+header > div {
     float: left;
     margin-right: 50px;
     position: relative;
@@ -25,11 +23,14 @@ nav > div {
     font-weight: 700;
     font-style: normal;
     font-size: x-large;
-}
+    }
 
-a:link{
-    color:aliceblue;
-}
+a:visited{
+        color: aliceblue;
+    }
+a{
+        color: aliceblue;
+    }
 
 *{
     margin: 0;
