@@ -47,7 +47,7 @@ body{
 
 }
 
-header{
+.headeranimation{
     font-size: 30px;
     color: greyblack;
     padding: 10px 0;
@@ -70,16 +70,17 @@ header{
 }
 
 header > h1{
-    margin: 2.5% 28%;
+    margin: 5% 28% 3% 28%;
     border: 5px double black;
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    animation: h1 4s linear infinite; 
+    animation: h1 4s linear infinite;
+    background-color: rgba(210, 180, 150, 0.25); 
 }
 
-@keyframes h1{
+/* @keyframes h1{
 
     0%{
         border-top-style: solid;
@@ -158,7 +159,7 @@ header > h1{
     border-left-style: solid;
     }
 
- }
+ } */
 
 nav ul{
 
