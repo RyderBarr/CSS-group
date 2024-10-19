@@ -45,12 +45,30 @@ header > div {
     }
     .grido > div{
         border: solid blue 1px;
-        /* width: 500px;
-        height: 500px; */
+        width: 500px;
+        height: 500px;
     }
-.Choco-Chip{
-    background-image: url(file.jpg);
+
+title{
+    border-radius: 15px;
 }
-.Oatmeal{
-    background-image: url(24445-chewy-chocolate-chip-oatmeal-cookies-DDMFS-4x3-4e97a758a98640759903569ef637ac18.jpg);
+a{
+    text-decoration: none;
+}
+.foot{
+    color: aliceblue;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(98, 71, 40);
+    width: 100%;
+    float: left;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    height: 75px;
+    text-align: center;
+   }
+*{
+    margin: 0;
+    padding: 0;
+
 }

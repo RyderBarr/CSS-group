@@ -10,7 +10,8 @@ header{
     width: 100%;   
     height: 35px;
     background-color: rgb(98, 71, 40);
-    
+    padding: auto;
+    margin: auto
     ;}
     header > div {
     float: left;
@@ -29,7 +30,7 @@ header{
     .titl{
         text-align: center;
         position: relative;
-        bottom: 5px;
+        top: 18px;
         right: 33px;
         color: white;
         font-family: "Poppins", sans-serif;
@@ -45,6 +46,7 @@ header{
         font-family: "Poppins", sans-serif;
         font-style: italic;
         height: 75px;
+        text-align: center;
        }
 body{
     background-color: linear-gradient(to right blue, black);
@@ -96,4 +98,17 @@ input:active{
 }
 a:visited{
     color: white;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }

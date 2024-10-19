@@ -308,3 +308,20 @@ input:active{
         transform: translateY(0);
     }
 } */ 
+a:visited{
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.foot{
+    color: aliceblue;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(98, 71, 40);
+    width: 100%;
+    float: left;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    height: 75px;
+   }
