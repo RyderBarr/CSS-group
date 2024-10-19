@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap') ;
+body{
+    background-image: url(cookie.webp);
+}
+header{
+    z-index: 1;
+    margin-right: 15px;
+    border-bottom: 1px solid;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;   
+    height: 35px;
+    background-color: rgb(98, 71, 40);
+    
+    ;}
+header > div {
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    top: 7px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+    }
+    a:visited{
+        color: aliceblue;
+    }
+    a{
+        color: aliceblue;
+    }
+    .grido{
+        
+        display: grid;
+        grid-template-rows: 500px 500px 500px;
+        grid-template-columns: 500px 500px 500px ;
+        /* border: blue solid; */
+        position: relative;
+        top: 50px;
+        left: 45px;
+        gap: 15px;
+    }
+    .grido > div{
+        border: solid blue 1px;
+        /* width: 500px;
+        height: 500px; */
+    }
+.Choco-Chip{
+    background-image: url(file.jpg);
+}
+.Oatmeal{
+    background-image: url(24445-chewy-chocolate-chip-oatmeal-cookies-DDMFS-4x3-4e97a758a98640759903569ef637ac18.jpg);
+}
